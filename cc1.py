@@ -1,10 +1,10 @@
-#import numpy as np
+# -*- coding: utf-8 -*-
 '''Misclaneous string programs'''
 
 
 import time
 import numpy as np
-from __future__ import division
+
 
 #Performing reverse a string
 
@@ -31,7 +31,8 @@ def isunq2(name):
   if(len(name))!=len(set(name)):
       return False
   return True
-  
+ 
+isunq("Tanay") 
 #Remove duplicates from a string
 
 def delunq(name):
@@ -44,6 +45,7 @@ def delunq(name):
            uchk[lname[l]]=True
     print 'Deduplicated string is:',''.join(lname)
 
+delunq("Tanay")
 #1.4:Write a method to decide if two strings are anagrams or not.
 
 def anagram(str1,str2):
