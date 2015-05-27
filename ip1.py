@@ -1,4 +1,4 @@
-'''Find a pair of elements from an array whose sum equals a given number'''
+"""Find a pair of elements from an array whose sum equals a given number"""
 import time
 import numpy as np
 

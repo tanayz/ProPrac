@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon May 25 18:59:00 2015
-
-@author: tanay
+Find the first unique value from an unsorted array
 """
 import time
 

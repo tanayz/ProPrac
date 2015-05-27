@@ -5,7 +5,7 @@ import time
 
 #input=np.arange(20000)
 #np.random.shuffle(input)
-
+"""Find the minimum difference between elements in an array"""
 input = [5,13,8,1,17,23,28,36,42,50,55]
 
 mx=10
