@@ -1,4 +1,6 @@
 #import numpy as np
+'''Misclaneous string programs'''
+
 
 import time
 import numpy as np
