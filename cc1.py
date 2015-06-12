@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-'''Misclaneous string programs'''
+
+'''Misclaneous string programs for coding exercise'''
 
 
 import time
