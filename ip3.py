@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Find the first unique value from an unsorted array
+Author : Tanay Chowdhury
 """
 import time
 
@@ -32,5 +33,6 @@ print 'Time taken',time.time()-t
 
 """
 Find top k most frequent number :http://www.careercup.com/question?id=5632249361858560
+Author : Tanay Chowdhury
 """
 # sort dc in terms of values in descending order and pick up top k
