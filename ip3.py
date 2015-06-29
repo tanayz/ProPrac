@@ -29,3 +29,8 @@ for i in range(len(input)-1):
             break
         
 print 'Time taken',time.time()-t
+
+"""
+Find top k most frequent number :http://www.careercup.com/question?id=5632249361858560
+"""
+# sort dc in terms of values in descending order and pick up top k
