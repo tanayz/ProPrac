@@ -36,3 +36,8 @@ Find top k most frequent number :http://www.careercup.com/question?id=5632249361
 Author : Tanay Chowdhury
 """
 # sort dc in terms of values in descending order and pick up top k
+import operator
+sorted_dc = sorted(dc.items(), key=operator.itemgetter(1),reverse=True)
+for x,y in sorted_dc:
+    i=i+1    
+    if i<=5:print x
