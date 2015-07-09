@@ -26,7 +26,7 @@ Output: 8 (the index of 5 in the array)"""
 input=[15,16,19,20,25,1,3,4,5,7,10,14]
 start=0
 end=len(input)-1
-srch=5
+srch=55
 mid=(start+end)//2
 
 
@@ -44,21 +44,24 @@ else :
     start=mid+1
     end=len(input)-1
 
-while start<end and input[mid]!=srch:
-    mid=(start+end)//2
-    if srch>input[mid]:
-        start=mid
-    else :end=mid    
 
-if start<end:   
-    print srch,' found at position',mid
-else:
-    print 'Not found'
+def binarySearch(input, srch,start,end):
+    start=start
+    end=end
+    mid = (start+end)/2
+    found=False
 
-"""9.5 Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string.
-Example: find “ball” in [“at”, “”, “”, “”, “ball”, “”, “”, “car”, “”, “”, “dad”, “”, “”] will return 4
-Example: find “ballcar” in [“at”, “”, “”, “”, “”, “ball”, “car”, “”, “”, “dad”, “”, “”] will return -1""
+    while start<=end and not found :
+       mid=(start+end)//2
+       if input[mid] == srch:
+           found=True
+       if srch>input[mid]:
+           start=mid+1
+       else :
+           end=mid+1    
+    return found
 
+print binarySearch(input, srch,start,end)
 
 
 
